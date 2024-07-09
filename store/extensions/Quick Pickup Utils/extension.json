@@ -1,12 +1,16 @@
 {
   "title": "Quick Pickup Utils",
-  "description": "Chat commands to quickly pickup items in your Habbo flat",
+  "description": "Chat commands to quickly pickup items in your Habbo flat\n\nCommands:\n- :pickup <wall | floor> <amount>\n- :pickup <item_name> <amount>\n\nExamples:\n- :pickup wall 10\n- :pickup rare_daffodil_rug 5",
   "authors": [
     {
       "name": "SimonFlapse",
-      "hotel": ".com",
       "username": "PolarBear",
       "discord": "simonflapse"
+    },
+    {
+      "name": "Hotel",
+      "username": "Hotel",
+      "discord": "jouster"
     }
   ],
   "version": "1.0.0",
@@ -20,7 +24,7 @@
 
   "framework": {
     "name": "Native",
-    "version": "1.5.4"
+    "version": "1.5.4-beta-6"
   },
 
   "language": "Java",
