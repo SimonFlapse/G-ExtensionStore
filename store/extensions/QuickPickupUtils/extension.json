@@ -1,0 +1,39 @@
+{
+  "title": "Quick Pickup Utils",
+  "description": "Chat commands to quickly pickup items in your Habbo flat",
+  "authors": [
+    {
+      "name": "SimonFlapse",
+      "hotel": ".com",
+      "username": "PolarBear",
+      "discord": "simonflapse"
+    }
+  ],
+  "version": "1.0.0",
+  "categories": ["Building", "Usability"],
+
+  "source": "https://github.com/SimonFlapse/QuickPickupUtils",
+  "readme": "https://github.com/SimonFlapse/QuickPickupUtils/blob/main/README.md",
+  "releases": "https://github.com/SimonFlapse/QuickPickupUtils/releases",
+
+  "stable": true,
+
+  "framework": {
+    "name": "Native",
+    "version": "1.5.4"
+  },
+
+  "language": "Java",
+  "commands": {
+    "default": ["java", "-jar", "quick-pickup-utils-1.0.0.jar", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"]
+  },
+
+  "compatibility": {
+    "systems": ["Linux", "Windows", "Mac"],
+    "clients": ["Origins"]
+  },
+
+  "submissionDate": "09-07-2024 23:10:00",
+  "updateDate": "09-07-2024 23:10:00",
+  "isOutdated": false
+}
